@@ -1,0 +1,9 @@
+if (!error) {
+	req.loggedIn = true;
+	console.log(decoded.username);
+	console.log('Logged In');
+}
+else {
+	req.loggedIn = false;
+	console.log('Logged Out');
+}

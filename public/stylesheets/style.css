@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: medium;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body h1 {
+  height: 50%;
+  width: 75%;
+  font-size: 4rem;
+  background-color: orange;
+}
+body input {
+  outline: none;
+  color: orange;
+}
+
+.login {
+  background-color: beige;
+}
+.login * {
+  margin-bottom: 1rem;
+}
+.login input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.login button {
+  padding: 1rem;
+  background-color: orange;
+  color: white;
+}
+
+.confidential {
+  background-color: beige;
+}
+.confidential * {
+  margin-bottom: 1rem;
+}
+.confidential p {
+  height: 10%;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: green;
+}
+
+.container {
+  height: 88%;
+  width: 88%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
